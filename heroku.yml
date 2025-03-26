@@ -1,0 +1,5 @@
+build:
+  docker:
+    web: perfume-front-nextjs/Dockerfile # Define the path to the Dockerfile for the frontend
+    backend: flask-backend/Dockerfile    # Define the path to the Dockerfile for the backend
+
