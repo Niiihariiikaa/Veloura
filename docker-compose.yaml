@@ -1,43 +1,18 @@
-# place this docker-compose in the root dir and place both frontend 
-# and backend dirs in the root dir
-# root_dir
-# /perfume-front-nextjs
-# /flask-backend
-# |---docker-compose.yaml
-
-version: '3.8'
+version: '3.9'
 
 services:
-  backend:
-    build:
-      context: ./flask-backend
-      dockerfile: Dockerfile
-    ports:
-      - "5000:5000"
-    networks:
-      app-network:
-        ipv4_address: 192.168.65.2  # Static IP within your subnet
-    environment:
-      - FLASK_ENV=production
-      - FLASK_RUN_HOST=0.0.0.0
-
   frontend:
     build:
       context: ./perfume-front-nextjs
-      dockerfile: Dockerfile
     ports:
       - "3000:3000"
-    depends_on:
-      - backend
-    networks:
-      app-network:
-        ipv4_address: 192.168.65.3  # Static IP within your subnet
     environment:
-      - NEXT_PUBLIC_API_URL=http://192.168.65.2:5000  # Points to backend IP
+      - PORT=3000
 
-networks:
-  app-network:
-    driver: bridge
-    ipam:
-      config:
-        - subnet: "192.168.65.0/24"  # Explicitly declare your subnet
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=development

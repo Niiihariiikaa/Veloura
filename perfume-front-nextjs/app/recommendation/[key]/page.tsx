@@ -50,7 +50,7 @@ export default function Recommendation() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [no_of_recs, setNoOfRecs] = useState<number>(8);
   const key = Number(usePathname()?.split("/")[2]);
-  const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+  const backendUrl = process.env.NEXT_PUBLIC_API_URL;
 
   // fetch searched perfume and recommended perfumes
   useEffect(() => {
