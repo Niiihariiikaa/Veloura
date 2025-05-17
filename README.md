@@ -3,7 +3,7 @@
 Perfume Finder uses AI to recommend perfumes based on your preferences and previous selections. You can search for specific perfumes, read and write reviews, save your favorites, and learn about different fragrance families and notes.
 
 
-[![Demo Video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://drive.google.com/file/d/1GL3nf_jQl_fyFbCbI2U9Udiq00SrjK9o/view?usp=drive_link)
+[![Demo Video]](https://drive.google.com/file/d/1GL3nf_jQl_fyFbCbI2U9Udiq00SrjK9o/view?usp=drive_link)
 
 > 📌 If the video doesn't play directly, click the **Download** icon or **Open with Drive**.
 
