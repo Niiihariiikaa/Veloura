@@ -29,5 +29,5 @@ Run Frontend (Next.js):
 cd perfume-front-nextjs
 npm install
 npm run dev
-App will launch at http://localhost:3000
+
 
