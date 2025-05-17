@@ -5,7 +5,7 @@ Perfume Finder uses AI to recommend perfumes based on your preferences and previ
 
 ![Demo Video](https://drive.google.com/file/d/1GL3nf_jQl_fyFbCbI2U9Udiq00SrjK9o/view?usp=drive_link)
 
-> 📌 If the video doesn't play directly, click the **Download** icon or **Open with Drive**.
+
 
 
 
