@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gradient {
+  @apply bg-[url('/gradient.png')] bg-no-repeat bg-cover;
+}
+
+/* *{
+  border: 1px solid red;
+} */
