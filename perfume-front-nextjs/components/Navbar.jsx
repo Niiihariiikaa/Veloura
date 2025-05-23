@@ -22,11 +22,7 @@ export const Navbar = () => {
             ABOUT
           </Link>
         </li>
-        <li >
-          <Link href="https://parth-time-dev.vercel.app/" title='Read my Blog' className='p-4 hover:text-accent hover:font-bold text-primary mr-1 py-[10px] px-6 cursor-pointer duration-100'>
-            BLOG
-          </Link>
-        </li>
+        
       </ul>
 
       {/* Mobile Navigation Icon */}
