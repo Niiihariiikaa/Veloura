@@ -21,8 +21,8 @@
 - **Backend**: [Flask](https://flask.palletsprojects.com/)
 - **Database**: SQLite
 - **Search Engine**: Fuzzy Search logic for improved UX
-![image](https://github.com/user-attachments/assets/728ae356-2ce5-41b8-809a-6325c480909a)
-![image](https://github.com/user-attachments/assets/004faaa0-c5be-4d69-9955-1edec03047ed)
+![image](https://github.com/user-attachments/assets/12df27d3-5273-4715-9fc5-8f2a38e48449)
+
 
 ---
 
@@ -33,6 +33,7 @@
 ```bash
 git clone https://github.com/Niiihariiikaa/Veloura.git
 cd Veloura/perfume-front-nextjs
+npm run dev
 
 
 
