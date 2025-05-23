@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # place this docker-compose in the root dir and place both frontend 
 # and backend dirs in the root dir
 # root_dir
@@ -29,3 +30,23 @@ services:
 networks:
   app-network:
     driver: bridge
+=======
+version: '3.9'
+
+services:
+  frontend:
+    build:
+      context: ./perfume-front-nextjs
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=development
+>>>>>>> b9575b350e640c1468f92529b8cd6363ec52b41f
