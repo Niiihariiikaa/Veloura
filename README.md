@@ -2,7 +2,7 @@
 
 **Veloura** is an AI-driven web application that helps users discover perfumes tailored to their preferences. From intelligent recommendations to detailed perfume profiles and user reviews, Veloura makes exploring fragrances an immersive experience.
 
-![Demo Video](https://drive.google.com/uc?export=download&id=13vlrXTaHeQVxX6HdbRenC0XdseDkSiy8)
+![Demo Video](https://drive.google.com/file/d/13vlrXTaHeQVxX6HdbRenC0XdseDkSiy8/view?usp=sharing)
 
 ---
 
