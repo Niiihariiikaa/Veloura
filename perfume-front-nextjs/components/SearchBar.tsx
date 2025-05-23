@@ -28,7 +28,7 @@ export const SearchBar = () => {
   const [showSuggestions, setShowSuggestions] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
   const dropdownRef = useRef<HTMLDivElement>(null)
-  const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+  const backendUrl = process.env.NEXT_PUBLIC_API_URL;
 
   // useEffect to fetch all perfume names from the API for fuzzy search.
   useEffect(() => {
