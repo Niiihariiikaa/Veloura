@@ -13,7 +13,7 @@ export default function About() {
                 About Veloura
               </h1>
               <p className="max-w-2xl text-muted-foreground md:text-xl">
-                Veloura filters through a vast database of perfumes to help you find the perfect scent. Whether you&apos;re looking for a new signature scent, finding similar to the ones you already love or a gift for a loved one, Perfume Finder has you covered.
+                Veloura filters through a vast database of perfumes to help you find the perfect scent. Whether you&apos;re looking for a new signature scent, finding similar to the ones you already love or a gift for a loved one, Veloura has you covered.
               </p>
               <div className="space-y-4 text-muted-foreground">
                 <h2 className="text-2xl font-semibold">The Method and Techniques</h2>
