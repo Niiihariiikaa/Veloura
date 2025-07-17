@@ -21,7 +21,7 @@ export default function About() {
                   In building this side project, I&apos;ve employed various techniques to ensure a robust and scalable application:
                 </p>
                 <ul className="list-disc pl-5 space-y-2">
-                  <li><span className="font-semibold">Artificial Intelligence:</span> PerfumeFinder uses Artificial Intelligence to recommend perfumes for your taste. </li>
+                  <li><span className="font-semibold">Artificial Intelligence:</span> Veloura uses Artificial Intelligence to recommend perfumes for your taste. </li>
                   <li><span className="font-semibold">Next JS:</span>Server Sided Components and faster pages for better User Experience</li>
                   <li><span className="font-semibold">Tailwind CSS:</span> For a consistent and visually appealing design system.</li>
                   <li><span className="font-semibold">Responsive Layout:</span> Ensuring great user experience across all devices.</li>
